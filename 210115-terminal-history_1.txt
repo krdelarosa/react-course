@@ -1,0 +1,14 @@
+ 1998  cd ~/course-dev/react-course
+ 1999  nvm -v
+ 2000  nvm ls
+ 2001  nvm ls-remote
+ 2002  nvm install v15.6.0
+ 2003  npm -v
+ 2004  create-react-app react-complete-guide --scripts-version 1.1.5
+ 2005  react-complete-guide
+ 2006  cd react-complete-guide
+ 2007  npm start
+ 2008  sudo gedit /etc/sysctl.conf
+ 2009  sudo sysctl -p
+ 2010  npm start
+ 2011  history > ~/course-dev/react-course/210115-terminal-history.txt
