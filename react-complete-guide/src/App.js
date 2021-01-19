@@ -1,48 +1,86 @@
-import React, { useState } from 'react';
+import React, { Component } from 'react';
 import './App.css';
 import Person from './Person/Person';
 
-const app = (props) => {
-  const [personsState, setPersonsState] = useState({
+class App extends Component {
+  state = {
     persons: [
-      {name:'Karen', age:29},
-      {name:'Juan', age:30},
-      {name:'Juana', age:31}
+      {id:1, name:'Karen', age:29},
+      {id:2, name:'Juan', age:30, child: 'My hobby is Racing.'},
+      {id:3, name:'Juana', age:31}
     ],
-    otherState:'other'
-  });
-
-  // muliple separate useState hooks (add functionality to functional components)
-  // alternative to class-based components
-  const [otherState,setOtherState] = useState('some other value');
-
-  const switchPersonInfoHandler = () => {
-    // replace old state data with new data
-    setPersonsState({ 
-      persons:[
-        {name:'Kathyrine', age:29},
-        {name:'Juanito', age:50},
-        {name:'Juana', age:35}
-      ],
-      otherState:personsState.otherState
-    })
+    otherState:'other',
+    showPersonsList: false
   }
 
-  console.log(personsState,otherState);
+  deletePersonInfoHandler = (personIndex) => {
+    // const persons = this.state.persons.slice();
+    const persons = [...this.state.persons];
+    persons.splice(personIndex,1);
+    this.setState({persons: persons});
+  }
 
-  return (
-    // className instead of class; class is a reserved word
-    <div className="App"> 
-      <h1>Hello World! I'm a React App.</h1>
-      <p>EUREKA! It's working!</p>
-      <button onClick={switchPersonInfoHandler}>Switch Person Data</button>
-      <Person name={personsState.persons[0].name} age={personsState.persons[0].age}/>
-      <Person name={personsState.persons[1].name} age={personsState.persons[1].age}>My Hobbies is Racing.</Person>
-      <Person name={personsState.persons[2].name} age={personsState.persons[2].age}/>
-    </div>
-  );
+  nameChangeHandler = (event,id) => {
+    const personIndex = this.state.persons.findIndex(p => { // executed for each element in persons
+      return p.id === id;
+    });
+
+    const person = {...this.state.persons[personIndex]};
+    person.name = event.target.value;
+
+    const persons = [...this.state.persons];
+    persons[personIndex] = person;
+
+    this.setState({persons:persons});
+  }
+
+  togglePersonsHandler = () => {
+    const doesShow = this.state.showPersonsList;
+    this.setState({ showPersonsList: !doesShow });
+  }
+  
+  render() {
+    // inline styling
+    const style = {
+      backgroundColor: 'white',
+      font: 'inherit',
+      border: '1px solid blue',
+      padding: '8px',
+      cursor: 'pointer'
+    };
+
+    let persons = null;
+
+    if(this.state.showPersonsList){
+      persons = (
+        <div>
+          {this.state.persons.map( (person, index) => {
+            return <Person 
+            name={person.name} 
+            age={person.age}
+            key={person.id}
+            changed={(event) => this.nameChangeHandler(event, person.id)}
+            click={() => this.deletePersonInfoHandler(index)}>{person.child}</Person>
+          })}
+
+        </div>
+      );
+    }
+
+    return (
+      // className instead of class; class is a reserved word
+      <div className="App"> 
+        <h1>Hello World! I'm a React App.</h1>
+        <p>EUREKA! It's working!</p>
+        <button 
+        style={style} // inline styling for localized styling
+        onClick={this.togglePersonsHandler}>Toggle Persons List</button>
+        
+        {persons}
+      </div>
+    );
+  }
+
 }
 
-export default app;
-
-
+export default App;
