@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
+// import styled from 'styled-components';
+// import Radium, { StyleRoot } from 'radium';// import in file that uses it
 import './App.css';
 import Person from './Person/Person';
+
 
 class App extends Component {
   state = {
@@ -42,11 +45,16 @@ class App extends Component {
   render() {
     // inline styling
     const style = {
-      backgroundColor: 'white',
+      backgroundColor: 'green',
+      color: 'white',
       font: 'inherit',
       border: '1px solid blue',
       padding: '8px',
-      cursor: 'pointer'
+      cursor: 'pointer',
+      ':hover': {
+        backgroundColor: 'lightgreen',
+        color: 'black'
+      }
     };
 
     let persons = null;
@@ -65,16 +73,30 @@ class App extends Component {
 
         </div>
       );
+
+      style.backgroundColor = 'red';
+      style[':hover'] = {
+        backgroundColor: 'salmon',
+        color: 'black'
+      }
+    }
+
+    const classes = [];
+    if(this.state.persons.length <= 2){
+      classes.push('red');
+    }
+
+    if(this.state.persons.length <= 1){
+      classes.push('bold');
     }
 
     return (
-      // className instead of class; class is a reserved word
       <div className="App"> 
         <h1>Hello World! I'm a React App.</h1>
-        <p>EUREKA! It's working!</p>
-        <button 
-        style={style} // inline styling for localized styling
-        onClick={this.togglePersonsHandler}>Toggle Persons List</button>
+        <p className={classes.join(' ')}>EUREKA! It's working!</p>
+        <button toggle={this.state.showPersonsList} onClick={this.togglePersonsHandler}>
+        Toggle Persons List
+        </button>
         
         {persons}
       </div>
@@ -83,4 +105,5 @@ class App extends Component {
 
 }
 
+// export default Radium(App); // wrap app with radium
 export default App;
