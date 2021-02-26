@@ -1,9 +1,12 @@
 import React from 'react';
+import { withRouter } from 'react-router-dom';
 
 import classes from './Sandwich.css';
 import Ingredient from './ingredients/Ingredients';
 
 const sandwich = (props) => {
+    console.log(props);
+
     let transformedIngredients = Object.keys(props.ingredients)
     .map(igKey => {
         return [...Array(props.ingredients[igKey])].map((_,i) => {
@@ -28,4 +31,4 @@ const sandwich = (props) => {
     );
 };
 
-export default sandwich;
+export default withRouter(sandwich);

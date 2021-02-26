@@ -31,6 +31,7 @@ class SandwichBuilder extends Component
     }
 
     componentDidMount () {
+        console.log(this.props);
         axios.get('https://react-sandwich-builder-cb958-default-rtdb.firebaseio.com/ingredients.json')
         .then(response => {
             console.log(response);
@@ -108,30 +109,18 @@ class SandwichBuilder extends Component
 
     purchaseCheckoutHandler = () => {
         // alert('CHECKOUT ORDER!');
-        this.setState({loading:true});
         
-        const order = {
-            ingredients: this.state.ingredients,
-            price: this.state.totalPrice,
-            customer:{
-                name: 'Karen de la Rosa',
-                address: {
-                    street: 'Test Street',
-                    zip_code: '1234',
-                    country: 'Test Country'
-                },
-                email: 'test@test.com'
-            },
-            delivery_method: 'fastest'
+
+        const queryParams = [];
+        for(let i in this.state.ingredients) {
+            queryParams.push(encodeURIComponent(i) + '=' + encodeURIComponent(this.state.ingredients[i]));
         }
-        axios.post('/orders.json',order)
-        .then(response => {
-            this.setState({loading: false});
-            this.setState({purchasing: false});
-        })
-        .catch(error => {
-            this.setState({loading: false});
-            this.setState({purchasing: false});
+        queryParams.push('price=' + this.state.totalPrice);
+        const queryString = queryParams.join('&');
+
+        this.props.history.push({
+            pathname: '/checkout',
+            search: '?' + queryString
         });
     }
 
