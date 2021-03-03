@@ -1,0 +1,11 @@
+.userOutput {
+    width: 30%;
+    margin: auto;
+    margin-bottom: 5px;
+    border: 2px dotted #666666;
+    box-shadow: 0 2px 3px #ccc;
+    background-color: darkcyan;
+    color: floralwhite;
+    padding: 5px;
+    text-align: justify;
+}

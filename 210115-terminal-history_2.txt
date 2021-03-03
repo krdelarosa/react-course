@@ -1,0 +1,1000 @@
+ 1003  sudo docker exec -it 975512700b65 bash
+ 1004  sudo apt-add-repository ppa:bookworm-team/bookworm
+ 1005  sudo apt-get update
+ 1006  sudo apt-get install bookworm
+ 1007  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1008  sudo docker ps
+ 1009  select * from experiment.location limit 1
+ 1010  sudo docker exec -it 54e132af1905 bash
+ 1011  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1012  sudo docker ps
+ 1013  sudo docker exec it 3b6dfe0c0b19 BASH
+ 1014  sudo docker exec -it 3b6dfe0c0b19 bash
+ 1015  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1016  sudo docker ps
+ 1017  docker cp /home/kdelarosa/work-dev/B4R-Development/dba/dev-db-ssh/newdb/b4rebsfixturedb.sql.gz f5449443d6b8:/
+ 1018  sudo docker cp /home/kdelarosa/work-dev/B4R-Development/dba/dev-db-ssh/newdb/b4rebsfixturedb.sql.gz f5449443d6b8:/
+ 1019  sudo createdb -U postgres -h localhost b4r_v3
+ 1020  sudo gunzip -c /home/kdelarosa/work-dev-B4R-Development/dba/dev-db-ssh/newdb/b4rebsfixturedb.sql.gz | psql -U postgres -h localhost b4r_v3
+ 1021  sudo gunzip -c /home/kdelarosa/work-dev/B4R-Development/dba/dev-db-ssh/newdb/b4rebsfixturedb.sql.gz | psql -U postgres -h localhost b4r_v3
+ 1022  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1023  sudo docker ps
+ 1024  sudo docker exec -it 52208ef3a05a bash
+ 1025  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1026  sudo docker ps
+ 1027  sudo docker exec -it 20d120247886 bash
+ 1028  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1029  sudo docker ps
+ 1030  sudo docker exec -it 367ca527f3b8 bash
+ 1031  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1032  sudo docker ps
+ 1033  sudo docker exec -it bc584723d46e bash
+ 1034  sudo docker stack rm b4r
+ 1035  sudo sh run.sh
+ 1036  sudo docker ps
+ 1037  sudo docker service ls
+ 1038  sudo docker ps
+ 1039  sudo docker exec -it 36f5a4103ab0 bash
+ 1040  sudo docker service ls
+ 1041  sudo docker ps
+ 1042  sudo docker exec -it 36f5a4103ab0 bash
+ 1043  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1044  sudo docker ps
+ 1045  sudo docker exec -it d5ed27a408bc bash
+ 1046  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1047  sudo docker ps
+ 1048  sudo docker exec -it 9f23ed79667d bash
+ 1049  php vendor/bin/codecept run unit modules/seedInventory/models/FindSeedDataBrowserModelTest
+ 1050  sudo docker ps
+ 1051  sudo docker exec -it c7b11eb1b51b bash
+ 1052  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1053  sudo docker ps
+ 1054  sudo docker exec -it 88ed5c85b656 bash
+ 1055  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1056  sudo docker ps
+ 1057  sudo exec -it 3f5b180e8967 bash
+ 1058  sudo docker exec -it 3f5b180e8967 bash
+ 1059  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1060  sudo docker ps
+ 1061  sudo docker stack rm b4r
+ 1062  sudo docker pull irribim/b4r:develop
+ 1063  sudo docker stack rm b4r
+ 1064  sudo docker ps
+ 1065  sudo docker stack rm b4r
+ 1066  sudo docker ps
+ 1067  cd ~/work-dev/B4R-Deployment
+ 1068  sudo docker ps
+ 1069  sudo docker up
+ 1070  sudo docker-compose ps
+ 1071  sudo docker-compose up
+ 1072  gunzip < ~/Downloads/b4rfixturedb_2001.sql.gz | psql -U postgres -h localhost -p 5432 b4r
+ 1073  br33d1ng4R1c3
+ 1074  gunzip < ~/Downloads/b4rfixturedb_2001.sql.gz | psql -U postgres -h localhost -p 5432 b4r
+ 1075  gunzip < /Downloads/b4rfixturedb_2001.sql.gz | psql -U postgres -h localhost -p 5432 b4r
+ 1076  gunzip < ~/Downloads/b4rfixturedb_2001.sql.gz | psql -U postgres -h localhost -p 5432 b4r
+ 1077  sudo docker-compose ps
+ 1078  gunzip < ~/Downloads/b4rfixturedb_2001.sql.gz | psql -U postgres -h localhost -p 5432 b4r
+ 1079  docker images
+ 1080  sudo docker images
+ 1081  sudo docker-compose up
+ 1082  sudo lsof -i -P -n | grep LISTEN
+ 1083  sudo service postgres stop
+ 1084  sudo docker-compose up
+ 1085  sudo lsof -i -P -n | grep LISTEN
+ 1086  sudo service postgres stop
+ 1087  cd $_1
+ 1088  sudo service postgres stop
+ 1089  sudo lsof -i -P -n | grep LISTEN
+ 1090  sudo docker-compose up
+ 1091  cd ~/work-dev/B4R-Deployment
+ 1092  sudo docker-compose up
+ 1093  cd ~/work-dev/B4R-Deployment
+ 1094  sudo postgresql stop
+ 1095  sudo service postgresql stop
+ 1096  sudo docker-compose up
+ 1097  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1098  sudo docker ps
+ 1099  sudo sh run.sh
+ 1100  sudo docker ps
+ 1101  sudo docker services ls
+ 1102  sudo docker service ls
+ 1103  sudo docker ps
+ 1104  sudo docker service ls
+ 1105  sudo docker ps
+ 1106  sudo docker exec -it 3243e7a3ed87 bash
+ 1107  sudo docker stack rm b4r
+ 1108  sudo sh run.sh
+ 1109  sudo docker ps
+ 1110  sudo docker pull irribim/b4r:develop
+ 1111  sudo docker pull irribim/breeding4results:20.01
+ 1112  sudo docker ps
+ 1113  sudo docker pull irribim/breeding4results:20.01
+ 1114  sudo sh run.sh
+ 1115  sudo docker stack rm b4r
+ 1116  sudo sh run.sh
+ 1117  sudo docker ps
+ 1118  sudo docker service ls
+ 1119  sudo docker stack rm b4r
+ 1120  sudo sh run.sh
+ 1121  sudo docker ps
+ 1122  sudo docker service ls
+ 1123  sudo docker stack rm b4r
+ 1124  sudo docker pull irribim/breeding4results:20.01
+ 1125  sudo docker ps
+ 1126  sudo sh run.sh
+ 1127  sudo docker ps
+ 1128  sudo docker service ls
+ 1129  sudo docker ps
+ 1130  sudo docker service ls
+ 1131  sudo docker ps
+ 1132  sudo docker exec -it a1cfd6d7061e bash
+ 1133  docker cp /home/kdelarosa/Downloads/b4rfixturedb_2001.sql.gz b4r_b4r-db.1.tde6ktf69lj83yi6327qqbh4f:/
+ 1134  sudo docker cp /home/kdelarosa/Downloads/b4rfixturedb_2001.sql.gz b4r_b4r-db.1.tde6ktf69lj83yi6327qqbh4f:/
+ 1135  sudo docker exec -it a1cfd6d7061e bash
+ 1136  sudo docker ps
+ 1137  sudo docker exec -it a11e0efb363a bash
+ 1138  sudo docker stack rm b4r
+ 1139  sudo sh run.sh
+ 1140  sudo docker ps
+ 1141  sudo docker service ls
+ 1142  sudo docker ps
+ 1143  sudo docker exec -it feaa2337f9a0 bash
+ 1144  sudo docker stack rm b4r
+ 1145  sudo sh run.sh
+ 1146  sudo docker ps
+ 1147  sudo docker service ls
+ 1148  sudo docker exec -it jd7kui74hcyv bash
+ 1149  sudo docker ps
+ 1150  sudo docker exec -it 1685a9d6f64a bash
+ 1151  cd ~/work-dev/B4R-Deployment
+ 1152  sudo docker-compose ps
+ 1153  sudo docker exec -it b4r-db bash
+ 1154  docker cp ~/Downloads/b4rfixturedb_2001.sql.gz b4r-db:/
+ 1155  sudo docker cp ~/Downloads/b4rfixturedb_2001.sql.gz b4r-db:/
+ 1156  sudo docker exec -it b4r-db bash
+ 1157  sudo doker-compose down
+ 1158  sudo docker-compose down
+ 1159  sudo apt-get update
+ 1160  curl -sS https://download.spotify.com/debian/pubkey.gpg | sudo apt-key add -
+ 1161  echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
+ 1162  sudo apt-get update && sudo apt-get install spotify-client
+ 1163  sudo apt-get install snapd
+ 1164  sudo snap install spotify
+ 1165  curl -X POST -H "Content-Type: application/json" -d '{"email": "k.delarosa@irri.org","code": "WtiHKHc2tgpW7l5o"}' http://localhost:3000/v3/auth/token
+ 1166  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1167  sudo docker stack rm b4r
+ 1168  sudo docker pull irribim/b4r:develop
+ 1169  sudo sh run.sh
+ 1170  sudo docker ps
+ 1171  sudo service ls
+ 1172  sudo docker service ls
+ 1173  sudo docker stack rm b4r
+ 1174  sudo sh run.sh
+ 1175  sudo service ls
+ 1176  sudo docker ps
+ 1177  sudo docker service ls
+ 1178  sudo docker stack rm b4r
+ 1179  sudo sh run.sh
+ 1180  sudo docker ps
+ 1181  sudo docker service ls
+ 1182  sudo docker stack rm b4r
+ 1183  sudo sh run.sh
+ 1184  sudo docker service ls
+ 1185  sudo docker ps
+ 1186  sudo docker service ls
+ 1187  sudo docker ps
+ 1188  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1189  sudo ps
+ 1190  sudo docker ps
+ 1191  sudo docker exec -it e04baf975fa4 bash
+ 1192  sudo docker exec -it 8ffdc2043cf3 bash
+ 1193  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1194  sudo docker ps
+ 1195  sudo docker exec -it a37b0a0e4993 bash
+ 1196  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1197  sudo docker stack rm b4r
+ 1198  sudo sh run.sh
+ 1199  sudo docker ps
+ 1200  sudo docker service ls
+ 1201  sudo docker ps
+ 1202  sudo docker exec -it 3b2f630aad5b bash
+ 1203  sudo docker stack rm b4r
+ 1204  sudo sh run.sh
+ 1205  sudo docker ps
+ 1206  sudo docker service ls
+ 1207  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1208  sudo ps
+ 1209  sudo docker ps
+ 1210  sudo docker exec -it fa5b388ff1df bash
+ 1211  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1212  sudo docker ps
+ 1213  sudo docker exec -it c6a16ec9345b bash
+ 1214  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1215  sudo docker ps
+ 1216  sudo docker cp /home/kdelarosa/work-dev/B4R-Development/dba/dev-db-ssh/2006_fixture/b4rebsfixturedb.sql.gz 78217fb6867c:/
+ 1217  sudo dropdb -U postgres -h localhost b4r
+ 1218  sudo createdb -U postgres -h localhost b4r
+ 1219  sudo gunzip -c /home/kdelarosa/work-dev/b4r-docker-swarm-deployment-tool/dump/b4rebsfixturedb_2006.sql.gz | psql -U postgres -h localhost b4r
+ 1220  sudo docker ps
+ 1221  sudo docker stack rm b4r
+ 1222  sudo sh run.sh
+ 1223  sudo docker ps
+ 1224  sudo docker service ls
+ 1225  sudo docker ps
+ 1226  sudo docker exec -it dd4d2da10be4 bash
+ 1227  curl -X POST -H "Content-Type: application/json" -d '{"email": "k.delarosa@irri.org","code": "Km51XbpvWjYuqwAF"}' http://localhost:3000/v3/auth/token
+ 1228  sudo gunzip -c /home/kdelarosa/work-dev/b4r-docker-swarm-deployment-tool/dump/b4rebsfixturedb_2006.sql.gz | psql -U postgres -h localhost b4r
+ 1229  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1230  sudo docker ps
+ 1231  sudo docker exec -it 8e66b8e2cdc7 bash
+ 1232  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1233  sudo docker ps
+ 1234  sudo odcker exec -it b92936359d93 bash
+ 1235  sudo docker exec -it b92936359d93 bash
+ 1236  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1237  sudo docker ps
+ 1238  sudo docker exec -it e5d2a455a537 bash
+ 1239  curl -X POST -H "Content-Type: application/json" -d '{"email": "k.delarosa@irri.org","code": "8VU3izr0wDjekI2g"}' http://localhost:3000/v3/auth/token
+ 1240  sudo docker exec -it e5d2a455a537 bash
+ 1241  sudo docker pssudo docker ps
+ 1242  sudo docker ps
+ 1243  docker cp c:\path\to\local\file container_name:/path/to/target/dir/
+ 1244  docker cp \home\kdelarosa\work-dev\B4R-Development\dba\dev-db-ssh\200623_fixture f1c2709d2085:/
+ 1245  docker cp /home/kdelarosa/work-dev/B4R-Development/dba/dev-db-ssh/200623_fixture/b4rebsfixturedb.sql.gz f1c2709d2085:/
+ 1246  sudo docker cp /home/kdelarosa/work-dev/B4R-Development/dba/dev-db-ssh/200623_fixture/b4rebsfixturedb.sql.gz f1c2709d2085:/
+ 1247  sudo docker exec -it f1c2709d2085 bash
+ 1248  sudo createdb -U postgres -h localhost b4r
+ 1249  sudo dropdb -U postgres -h localhost b4r
+ 1250  sudo createdb -U postgres -h localhost b4r
+ 1251  sudo gunzip -c /home/kdelarosa/work-dev/b4r-docker-swarm-deployment-tool/dump/b4rebsfixturedb_200623.sql.gz | psql -U postgres -h localhost b4r
+ 1252  sudo docker exec -it b92936359d93 bash
+ 1253  sudo docker ps
+ 1254  sudo docker exec -it e5d2a455a537 bash 
+ 1255  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1256  sudo docker ps
+ 1257  sudo docker exec -it 315ebb71f03b bash
+ 1258  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1259  sudo docker ps
+ 1260  sudo docker exec -it b1243b621eb0 bash
+ 1261  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1262  sudo docker ps
+ 1263  sudo docker exec -it 8f3a52edb6a5 bash
+ 1264  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1265  sudo docker ps
+ 1266  sudo dkcer exec -it 49d812b5e05a bash
+ 1267  sudo docker exec -it 49d812b5e05a bash
+ 1268  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1269  sudo docker ps
+ 1270  sudo docker cp /home/kdelarosa/work-dev/B4R-Development/dba/dev-db-ssh/2007_fixture/b4rebsfixturedb.sql.gz 4eb40eaf19e2:/
+ 1271  sudo dropdb -U postgres -h localhost b4r
+ 1272  sudo createdb -U postgres -h localhost b4r
+ 1273  sudo gunzip -c /home/kdelarosa/work-dev/b4r-docker-swarm-deployment-tool/dump/b4rebsfixturedb.sql.gz | psql -U postgres -h localhost b4r
+ 1274  sudo docker stack rm b4r
+ 1275  sudo sh run.sh
+ 1276  sudo docker services ls
+ 1277  sudo docker service ls
+ 1278  sudo docker ps
+ 1279  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1280  sudo docker ps
+ 1281  sudo docker stack rm b4r
+ 1282  sudo sh run.sh
+ 1283  sudo docker ps
+ 1284  sudo docker service ls
+ 1285  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1286  curl -X POST -H "Content-Type: application/json" -d '{"email": "k.delarosa@irri.org","code": "WtiHKHc2tgpW7l5o"}' https://api.b4rdev.org/v3/auth/token
+ 1287  curl -X POST -H "Content-Type: application/json" -d '{"email": "k.delarosa@irri.org","code": "WtiHKHc2tgpW7l5o"}' http://localhost:3000/v3/auth/token
+ 1288  curl -X POST -H "Content-Type: application/json" -d '{"email": "k.delarosa@irri.org","code": "f_l0zCLzefbdVYbC"}' http://localhost:3000/v3/auth/token
+ 1289  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1290  sudo docker ps
+ 1291  sudo docker exec -it fb53b55b6e81 bash
+ 1292  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1293  sudo docker ps
+ 1294  sudo docker rm -f b4r
+ 1295  sudo docker stack rm b4r
+ 1296  sudo sh run.sh
+ 1297  sudo docker ps
+ 1298  sudo docker service ls
+ 1299  sudo docker ps
+ 1300  sudo docker exec -it 05220e2d86fb bash
+ 1301  sudo docker stack rm b4r
+ 1302  sudo sh run.sh
+ 1303  sudo docker service ls
+ 1304  sudo docker ps
+ 1305  sudo docker exec -it 93797111657b bash
+ 1306  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1307  sudo docker stack rm b4r
+ 1308  sudo sh run.sh
+ 1309  sudo docker service ls
+ 1310  sudo docker ps
+ 1311  sudo docker exec -it 2edb02a45a69 bash
+ 1312  sudo docker service ls
+ 1313  sudo docker ps
+ 1314  sudo docker stack rm b4r
+ 1315  sudo sh run.sh
+ 1316  sudo docker ps
+ 1317  sudo docker service ls
+ 1318  sudo docker ps
+ 1319  sudo docker stack rm b4r
+ 1320  sudo sh run.sh
+ 1321  sudo docker ps
+ 1322  sudo docker service ls
+ 1323  sudo docker service ps --no-trunc b4r_b4r-api-v3
+ 1324  sudo docker exec -it vr62a85yh0hc bash
+ 1325  sudo docker ps
+ 1326  sudo docker exec -it e98320c4fde1 bash
+ 1327  sudo docker ps
+ 1328  sudo docker exec -it e98320c4fde1 bash
+ 1329  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1330  sudo docker ps
+ 1331  sudo docker exec -it dac9db7f7bb8 bash
+ 1332  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1333  sudo docker ps
+ 1334  sudo docker exec -it 2434744f62fd bash
+ 1335  curl http://localhost:3000/v3/status
+ 1336  sudo docker ps
+ 1337  sudo docker exec -it 2434744f62fd bash
+ 1338  curl http://localhost:3000/v3/status
+ 1339  wget -qO - https://keys.anydesk.com/repos/DEB-GPG-KEY | apt-key add -
+ 1340  sudo wget -qO - https://keys.anydesk.com/repos/DEB-GPG-KEY | apt-key add -
+ 1341  clear
+ 1342  sudo apt update
+ 1343  sudo apt -y upgrade
+ 1344  sudo apt install anydesk
+ 1345  docker ps
+ 1346  sudo docke rps
+ 1347  sudo docker ps
+ 1348  sudo docker exec -it dac9db7f7bb8 bash
+ 1349  wget https://download.anydesk.com/linux/anydesk_5.1.0-1_amd64.deb
+ 1350  wget -qO - https://keys.anydesk.com/repos/DEB-GPG-KEY | sudo apt-key add -
+ 1351  echo "deb http://deb.anydesk.com/ all main" | sudo tee /etc/apt/sources.list.d/anydesk-stable.list
+ 1352  sudo apt install anydesk
+ 1353  wget -qO - https://keys.anydesk.com/repos/DEB-GPG-KEY | sudo apt-key add -
+ 1354  sudo wget -qO - https://keys.anydesk.com/repos/DEB-GPG-KEY | sudo apt-key add -
+ 1355  echo "deb http://deb.anydesk.com/ all main" | sudo tee /etc/apt/sources.list.d/anydesk-stable.list
+ 1356  sudo echo "deb http://deb.anydesk.com/ all main" | sudo tee /etc/apt/sources.list.d/anydesk-stable.list
+ 1357  sudo apt update
+ 1358  sudo apt install anydesk
+ 1359  anydesk
+ 1360  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1361  sudo docker ps
+ 1362  sudo docker exec -it 05a3a53c2437 bash
+ 1363  curl -X POST -H "Content-Type: application/json" -d '{"email": "k.delarosa@irri.org","code": "F3AvffqrnE63uhp"}' http://localhost:3000/v3/auth/token
+ 1364  curl -X POST -H "Content-Type: application/json" -d '{"email": "k.delarosa@irri.org","code": "F3AvffqrnE63uhpi"}' http://localhost:3000/v3/auth/token
+ 1365  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1366  sudo docker ps
+ 1367  sudo docker exec -it e1b2c2d0f193 bash
+ 1368  sudo docker stack rm b4r
+ 1369  sudo sh run.sh
+ 1370  sudo docker ps
+ 1371  sudo docker exec -it abf3f71f6651 bash
+ 1372  sudo docker service ls
+ 1373  sudo docker ps
+ 1374  sudo docker service ls
+ 1375  sudo docker exec -it abf3f71f6651 bash
+ 1376  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1377  sudo docker ps
+ 1378  sudo docker exec -it ce06de5ab460 bash
+ 1379  sudo docker service ls
+ 1380  sudo docker stack rm b4r
+ 1381  sudo sh run.sh
+ 1382  sudo docker service ls
+ 1383  sudo docker stack rm b4r
+ 1384  sudo sh run.sh
+ 1385  sudo docker service ls
+ 1386  sudo docker stack rm b4r
+ 1387  sudo sh run.sh
+ 1388  sudo docker service ls
+ 1389  sudo docker ps
+ 1390  sudo docker exec -it 5995b221d2d0 bash
+ 1391  sudo docker exec -it ce06de5ab460 bash
+ 1392  sudo docker ps
+ 1393  sudo docker exec -it 5995b221d2d0 bash
+ 1394  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1395  sudo docker ps
+ 1396  sudo docker stack rm b4r
+ 1397  sudo sh run.sh
+ 1398  sudo docker service ls
+ 1399  sudo docker ps
+ 1400  sudo docker exec -it 0018b3935584 bash
+ 1401  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1402  sudo docker ps
+ 1403  sudo docker exec -it 3bf271830b0a bash
+ 1404  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1405  sudo docker ps
+ 1406  sudo docker cp /home/kdelarosa/work-dev/B4R-Development/dba/dev-db-ssh/b4rebsfixturedb.sql.gz 135ea8300ced:/
+ 1407  sudo dropdb -U postgres -h localhost b4r
+ 1408  sudo createdb -U postgres -h localhost b4r
+ 1409  sudo gunzip -c /home/kdelarosa/work-dev/b4r-docker-swarm-deployment-tool/dump/b4rebsfixturedb.sql.gz | psql -U postgres -h localhost b4r
+ 1410  sudo docker ps
+ 1411  sudo docker exec -it 78b4de1d7464 bash
+ 1412  sh run.sh
+ 1413  sudo sh run.sh
+ 1414  sudo docker services ls
+ 1415  sudo docker service ls
+ 1416  sudo docker pull
+ 1417  docker pull
+ 1418  sudo docker pull
+ 1419  sudo docker stack rm b4r
+ 1420  sudo docker pull irribim/b4r:develop
+ 1421  sudo sh run.sh
+ 1422  sudo docker ps
+ 1423  sudo docker services ls
+ 1424  sudo docker service ls
+ 1425  sudo docker services ls
+ 1426  sudo docker ps
+ 1427  sudo odcker exec -it 881ca5fb8d74 bash
+ 1428  sudo docker exec -it 881ca5fb8d74 bash
+ 1429  sudo docker ps
+ 1430  sudo docker cp /home/kdelarosa/work-dev/B4R-Development/dba/dev-db-ssh/b4rebsfixturedb.sql.gz bb40ffb5afba:/
+ 1431  sudo dropdb -U postgres -h localhost b4r
+ 1432  sudo docker stack rm b4r
+ 1433  sudo sh run.sh
+ 1434  sudo docker ps
+ 1435  sudo docker cp /home/kdelarosa/work-dev/B4R-Development/dba/dev-db-ssh/b4rebsfixturedb.sql.gz 5fcfeea8fe7b:/
+ 1436  sudo dropdb -U postgres -h localhost b4r
+ 1437  sudo createdb -U postgres -h localhost b4r
+ 1438  sudo gunzip -c /home/kdelarosa/work-dev/b4r-docker-swarm-deployment-tool/dump/b4rebsfixturedb.sql.gz | psql -U postgres -h localhost b4r
+ 1439  sudo docker ps
+ 1440  sudo docker exec -it 4a857abbf2f0 bash
+ 1441  cd b4r-docker-swarm-deployment-tool
+ 1442  git checkout feature/config-updates-20.07
+ 1443  git pull
+ 1444  cd ~/work-dev/B4R-Development/workspaces/b4r-ebs
+ 1445  cd ..
+ 1446  git clone https://kdelarosa@bitbucket.org/irridev/b4r-docker-swarm-deployment-tool.git
+ 1447  cd b4r-docker-swarm-deployment-tool
+ 1448  git checkout feature/config-updates-20.07
+ 1449  git pull
+ 1450  cd b4r-docker-swarm-deployment-tool
+ 1451  sudo sh run.sh
+ 1452  sudo docker ps
+ 1453  sudo docker service ls
+ 1454  sudo sh run.sh
+ 1455  sudo docker service ls
+ 1456  sudo docker stack rm b4r
+ 1457  sudo sh run.sh
+ 1458  sudo docker service ls
+ 1459  cd b4r-docker-swarm-deployment-tool
+ 1460  sudo docker service ls
+ 1461  sudo docker stack rm b4r
+ 1462  sudo sh run.sh
+ 1463  cd b4r-docker-swarm-deployment-tool
+ 1464  sudo sh run.sh
+ 1465  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1466  sudo docker stack rm b4r
+ 1467  sudo sh run.sh
+ 1468  sudo docker service ls
+ 1469  sudo docker stack rm b4r
+ 1470  sudo sh run.sh
+ 1471  sudo docker stack rm b4r
+ 1472  sudo sh run.sh
+ 1473  sudo docker service ls
+ 1474  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1475  sudo docker service ls
+ 1476  sudo docker stack rm b4r
+ 1477  sudo sh run.sh
+ 1478  sudo docker service ls
+ 1479  sudo docker stack rm b4r
+ 1480  sudo sh run.sh
+ 1481  sudo docker service ls
+ 1482  sudo docker ps
+ 1483  sudo docker exec -it e37619728b80 bash
+ 1484  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1485  sudo docker ps
+ 1486  sudo docker exec -it 7128f00f0006 bash
+ 1487  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1488  sh run.sh
+ 1489  sudo sh run.sh
+ 1490  sudo docker service ls
+ 1491  sudo docker ps
+ 1492  sudo docker exec -it 47f663b015f0 bash
+ 1493  sudo docker service ls
+ 1494  sudo sh run.sh
+ 1495  sudo docker service ls
+ 1496  sudo docker ps
+ 1497  sudo docker exec -it 47f663b015f0
+ 1498  sudo docker exec -it 47f663b015f0 bash
+ 1499  sudo docker service ls
+ 1500  docker service ps --no-trunc b4r_loadbalancer
+ 1501  sudo docker service ps --no-trunc b4r_loadbalancer
+ 1502  sudo docker service ls
+ 1503  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1504  sudo docker service ls
+ 1505  sudo docker ps
+ 1506  sudo docker exec -it d0b466f249d2 bash
+ 1507  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1508  sudo sh run.sh
+ 1509  sudo docker service ls
+ 1510  sudo docker service ls'
+ 1511  sudo docker service ls'
+ 1512  sudo docker services ls
+ 1513  sudo docker service ls
+ 1514  docker service ps --no-trunc b4r_b4r
+ 1515  sudo docker service ps --no-trunc b4r_b4r
+ 1516  sudo docker ps
+ 1517  docker service ps --no-trunc b4r_b4r
+ 1518  sudo docker service ps --no-trunc b4r_b4r
+ 1519  sudo sh run.sh
+ 1520  sudo docker service ls
+ 1521  sudo docker service ps --no-trunc b4r_b4r
+ 1522  sudo docker ps
+ 1523  sudo docker stack rm b4r
+ 1524  sudo sh run.sh
+ 1525  sudo docker ps
+ 1526  sudo docker service ls
+ 1527  sudo docker service ps --no-trunc b4r_b4r
+ 1528  sudo docker service ls
+ 1529  sudo docker service ps --no-trunc b4r_b4r
+ 1530  sudo docker service ls
+ 1531  sudo docker service scale b4r_b4r=1
+ 1532  sudo docker service 
+ 1533  sudo docker service ps --no-trunc b4r_b4r
+ 1534  sudo docker service ps b4r_b4r
+ 1535  sudo docker service ps --no-trunc b4r_b4r
+ 1536  sudo docker service ps b4r_b4r
+ 1537  sudo docker service logs --raw b4r_b4r
+ 1538  sudo docker service ps --no-trunc b4r_b4r
+ 1539  sudo docker service ps b4r_b4r
+ 1540  sudo docker service ps --no-trunc b4r_b4r
+ 1541  sudo docker service ls
+ 1542  sudo sh run.sh
+ 1543  sudo docker service ls
+ 1544  sudo docker service ps --no-trunc b4r_b4r
+ 1545  sudo docker service ps b4r_b4r
+ 1546  sudo docker service scale b4r_b4r=1
+ 1547  sudo docker service ls
+ 1548  sudo docker service ps --no-trunc b4r_b4r
+ 1549  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1550  sudo docker ps
+ 1551  sudo docker service ls
+ 1552  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1553  sudo docker ps
+ 1554  sudo docker exec- it 9e0eedb7124c bash
+ 1555  sudo docker exec -it 9e0eedb7124c bash
+ 1556  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1557  sudo docker ps
+ 1558  sudo docker stack rm b4r
+ 1559  sudo sh run.sh
+ 1560  sudo docker ps
+ 1561  sudo docker service ls
+ 1562  sudo docker ps
+ 1563  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1564  sudo docker ps
+ 1565  sudo docker stack rm b4r
+ 1566  sudo sh run.sh
+ 1567  sudo docker ps
+ 1568  sudo docker service ls
+ 1569  sudo docker ps
+ 1570  sudo docker exec -it 3829ed18f3bd bash
+ 1571  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1572  sudo docker service ls
+ 1573  sudo docker ps
+ 1574  sudo docker exec -it 970ae624c24b bash
+ 1575  sudo docker stack rm b4r
+ 1576  sudo sh run.sh
+ 1577  sudo docker service ls
+ 1578  sudo docker ps
+ 1579  sudo docker exec -it cede7070d21a bash
+ 1580  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1581  sudo docker ps
+ 1582  sudo docker exec -it f78bb600dec3 bash'
+ 1583  A
+ 1584  sudo docker exec -it f78bb600dec3 bash
+ 1585  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1586  sudo docker ps
+ 1587  sudo docker exec -it 841baa453266 bash
+ 1588  sudo docker stack rm b4r
+ 1589  sudo sh run.sh
+ 1590  sudo docker ps
+ 1591  sudo docker service ls
+ 1592  sudo docker ps
+ 1593  sudo docker exec -it 134ed67dff70 bash
+ 1594  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1595  sudo docker ps
+ 1596  sudo docker stack rm b4r
+ 1597  sudo sh run.sh
+ 1598  sudo docker ps
+ 1599  sudo docker service ls
+ 1600  openvpn3 config-import --config ${/home/kdelarosa/loca-vpn/client.ovpn}
+ 1601  openvpn3 config-import --config ${home/kdelarosa/loca-vpn/client.ovpn}
+ 1602  apt install apt-transport-https
+ 1603  sudo apt install apt-transport-https
+ 1604  sudo wget https://swupdate.openvpn.net/repos/openvpn-repo-pkg-key.pub
+ 1605  sudo apt-key add openvpn-repo-pkg-key.pub
+ 1606  sudo wget -O /etc/apt/sources.list.d/openvpn3.list https://swupdate.openvpn.net/community/openvpn3/repos/openvpn3-$DISTRO.list
+ 1607  sudo apt update
+ 1608  sudo apt install openvpn3
+ 1609  sudo apt update
+ 1610  openvpn3 config-import --config ${home/kdelarosa/loca-vpn/client.ovpn}
+ 1611  sudo apt install openvpn3
+ 1612  sudo apt install apt-transport-https
+ 1613  sudo wget https://swupdate.openvpn.net/repos/openvpn-repo-pkg-key.pub
+ 1614  sudo apt-key add openvpn-repo-pkg-key.pub
+ 1615  wget -O /etc/apt/sources.list.d/openvpn3.list https://swupdate.openvpn.net/community/openvpn3/repos/openvpn3-eoan.list
+ 1616  sudo wget -O /etc/apt/sources.list.d/openvpn3.list https://swupdate.openvpn.net/community/openvpn3/repos/openvpn3-eoan.list
+ 1617  sudo apt install openvpn3
+ 1618  sudo apt update
+ 1619  openvpn3 config-import --config ${/home/kdelarosa/loca-vpn/client.ovpn}
+ 1620  openvpn3 config-import --config /home/kdelarosa/loca-vpn/client.ovpn
+ 1621  sudo apt install openvpn3
+ 1622  sudo apt update
+ 1623  sudo apt install apt-transport-https
+ 1624  sudo wget https://swupdate.openvpn.net/repos/openvpn-repo-pkg-key.pub
+ 1625  sudo apt-key add openvpn-repo-pkg-key.pub
+ 1626  sudo wget -O /etc/apt/sources.list.d/openvpn3.list https://swupdate.openvpn.net/community/openvpn3/repos/openvpn3-bionic.list
+ 1627  sudo apt install openvpn3
+ 1628  sudo apt update
+ 1629  openvpn3 config-import --config /home/kdelarosa/loca-vpn/client.ovpn
+ 1630  openvpn3 -- version
+ 1631  sudo apt install openvpn3
+ 1632  sudo apt update
+ 1633  openvpn3 -- version
+ 1634  openvpn3 - version
+ 1635  openvpn3 -version
+ 1636  openvpn3 version
+ 1637  openvpn3 config-import --config /home/kdelarosa/loca-vpn/client.ovpn
+ 1638  openvpn3 config-import --config /home/kdelarosa/local-vpn/client.ovpn
+ 1639  openvpn3 session-start --config /home/kdelarosa/local-vpn/client.ovpn
+ 1640  openvpn3 sessions-list
+ 1641  openvpn3 session-manage --config /home/kdelarosa/local-vpn/client.ovpn --disconnect
+ 1642  openvpn3 sessions-list
+ 1643  lsof -i | grep openvpn
+ 1644  command > home/kdelarosa/local-vpn/terminal_history.txt
+ 1645  command > home/kdelarosa/local-vpn/terminal_history
+ 1646  command > home/kdelarosa/local-vpn/terminal_history.txt
+ 1647  history > ~/local-vpn/terminal_history.txt
+ 1648  lsof -i | grep openvpn3
+ 1649  status openvpn-status.log
+ 1650  openvpn3 status openvpn-status.log
+ 1651  sudo openvpn --config ~/local-vpn/client.ovpn
+ 1652  lsof -i | grep openvpn3
+ 1653  status openvpn-status.log
+ 1654  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1655  sudo docker ps
+ 1656  sudo docker cp /home/kdelarosa/work-dev/B4R-Development/dba/dev-db-ssh/b4rebsfixturedb.sql.gz 9ef2e34d5456:/
+ 1657  sudo dropdb -U postgres -h localhost b4r
+ 1658  sudo createdb -U postgres -h localhost b4r
+ 1659  sudo gunzip -c /home/kdelarosa/work-dev/b4r-docker-swarm-deployment-tool/dump/b4rebsfixturedb.sql.gz | psql -U postgres -h localhost b4r
+ 1660  sudo docker pull irribim/b4r-rabbitmq:master
+ 1661  sudo docker stack rm b4r
+ 1662  sudo docker services ls
+ 1663  sudo docker pull irribim/b4r-rabbitmq:master
+ 1664  sudo sh run.sh
+ 1665  sudo docker pull irribim/b4r-rabbitmq:master
+ 1666  sudo docker service ls
+ 1667  sudo docker pull irribim/b4r-rabbitmq:latest
+ 1668  sudo docker ps
+ 1669  sudo docker service ls
+ 1670  sudo docker stack rm b4r
+ 1671  sudo docker pull irribim/b4r-rabbitmq:latest
+ 1672  sudo sh run.sh
+ 1673  sudo docker service ls
+ 1674  sudo docker stack rm b4r
+ 1675  sudo docker service ls
+ 1676  sudo sh run.sh
+ 1677  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1678  sudo sh run.sh
+ 1679  sudo docker service ls
+ 1680  sudo docker pull irribim/b4r-rabbitmq:master
+ 1681  sudo docker service ls
+ 1682  sudo sh run.sh
+ 1683  sudo docker ps
+ 1684  sudo docker stack rm b4r
+ 1685  sudo sh run.sh
+ 1686  sudo docker ps
+ 1687  sudo docker service ls
+ 1688  sudo docker stack rm b4r
+ 1689  sudo docker pull irribim/b4r-rabbitmq:master
+ 1690  sudo sh run.sh
+ 1691  sudo docker ps
+ 1692  sudo docker service ls
+ 1693  sudo docker ps
+ 1694  sudo docker service ls
+ 1695  sudo docker stack rm b4r
+ 1696  sudo docker pull irribim/b4r-rabbitmq:
+ 1697  sudo sh run.sh
+ 1698  sudo docker ps
+ 1699  sudo docker service ls
+ 1700  sudo docker pull irribim/b4r-rabbitmq:latest
+ 1701  sudo sh run.sh
+ 1702  sudo docker service ls
+ 1703  sudo docker ps
+ 1704  sudo docker stack rm b4r
+ 1705  sudo docker pull irribim/b4r-rabbitmq:master
+ 1706  sudo docker pull irribim/b4r-rabbitmq:latest
+ 1707  sudo sh run.sh
+ 1708  sudo docker stack rm b4r
+ 1709  sudo sh run.sh
+ 1710  sudo docker pull irribim/b4r-rabbitmq:master
+ 1711  sudo docker pull irribim/b4r-rabbitmq-workers:master
+ 1712  sudo sh run.sh
+ 1713  sudo docker stack rm b4r
+ 1714  sudo sh run.sh
+ 1715  sudo docker ps
+ 1716  sudo docker service ls
+ 1717  sudo docker ps
+ 1718  sudo docker service ls
+ 1719  docker service ps --no-trunc b4r_b4r-rabbitmq-workers
+ 1720  sudo docker service ps --no-trunc b4r_b4r-rabbitmq-workers
+ 1721  sudo docker service ls
+ 1722  sudo docker service ps --no-trunc b4r_b4r-rabbitmq-workers
+ 1723  sudo docker service ls
+ 1724  sudo docker service ps --no-trunc b4r_b4r-rabbitmq-workers
+ 1725  docker service logs --raw b4r_b4r-rabbitmq-workers
+ 1726  sudo docker service logs --raw b4r_b4r-rabbitmq-workers
+ 1727  sudo docker service ls
+ 1728  sudo docker ps
+ 1729  sudo docker service logs --raw b4r_b4r-rabbitmq-workers
+ 1730  sudo docker ps
+ 1731  sudo docker service ls
+ 1732  sudo docker service logs --raw b4r_b4r-rabbitmq-workers
+ 1733  git pull
+ 1734  git stash
+ 1735  git pull
+ 1736  sudo docker stack rm b4r
+ 1737  sudo sh run.sh
+ 1738  sudo docker ps
+ 1739  sudo docker service ls
+ 1740  sudo docker ps
+ 1741  sudo docker service ls
+ 1742  sudo docker stack rm b4r
+ 1743  sudo sh run.sh
+ 1744  sudo docker stack rm b4r
+ 1745  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1746  sudo sh run.sh
+ 1747  sudo docker ps
+ 1748  sudo docker service ls
+ 1749  sudo docker service logs --raw b4r_b4r
+ 1750  sudo docker service ls
+ 1751  sudo docker service ps --no-trunc b4r_b4r
+ 1752  sudo docker service logs --raw b4r_b4r
+ 1753  sudo docker service ls
+ 1754  sudo docker ps
+ 1755  sudo docker service ls
+ 1756  sudo docker stack rm b4r
+ 1757  sudo sh run.sh
+ 1758  sudo docker stack rm b4r
+ 1759  sudo sh run.sh
+ 1760  sudo docker service ls
+ 1761  sudo docker service logs --raw b4r_b4r
+ 1762  sudo docker service ls
+ 1763  sudo docker ps
+ 1764  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1765  sudo docker ps
+ 1766  sudo docker service ls
+ 1767  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1768  sudo docker stack rm b4r
+ 1769  sudo sh run.sh
+ 1770  sudo docker service ls
+ 1771  sudo docker stack rm b4r
+ 1772  sudo sh run.sh
+ 1773  sudo docker service ls
+ 1774  sudo docker ps
+ 1775  sudo docker service ls
+ 1776  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1777  sudo docker service ls
+ 1778  sudo docker ps
+ 1779  sudo docker exec -it fe4c3c76c98b bash
+ 1780  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1781  sudo docker ps
+ 1782  sudo docker exec -it fcfeba7e26a5 bash
+ 1783  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1784  sudo docker ps
+ 1785  sudo docker exec -it 208ba377c4a1 bash
+ 1786  sudo docker ps
+ 1787  sudo docker service ls
+ 1788  sudo docker stack rm b4r
+ 1789  sudo sh run.sh
+ 1790  sudo docker service ls
+ 1791  sudo docker service logs --raw b4r_b4r
+ 1792  sudo docker service ls
+ 1793  sudo docker service ps --no-trunc b4r_b4r
+ 1794  sudo docker service logs --raw b4r_b4r
+ 1795  sudo docker service ps --no-trunc b4r_b4r
+ 1796  sudo docker service logs --raw b4r_b4r
+ 1797  sudo docker stack rm b4r
+ 1798  sudo sh run.sh
+ 1799  sudo docker service ls
+ 1800  sudo docker service ps --no-trunc b4r_b4r-api-v3
+ 1801  sudo docker service logs --raw b4r_b4r-api-v3
+ 1802  sudo docker service ls
+ 1803  sudo docker service ps --no-trunc b4r_b4r-api-v3
+ 1804  sudo docker service ps --no-trunc b4r_b4r
+ 1805  sudo docker service ls
+ 1806  sudo docker service ps --no-trunc b4r_b4r
+ 1807  sudo docker service ps --no-trunc b4r_b4r-api-v3
+ 1808  sudo docker service ls
+ 1809  sudo docker service ps --no-trunc b4r_b4r
+ 1810  sudo docker service logs --raw b4r_b4r
+ 1811  sudo docker service ls
+ 1812  sudo docker ps
+ 1813  sudo docker exec -it 831d78f481bb bash
+ 1814  sudo docker stack rm b4r
+ 1815  sudo sh run.sh
+ 1816  sudo docker service ls
+ 1817  sudo docker ps
+ 1818  sudo docker service ls
+ 1819  sudo docker service ps --no-trunc b4r_b4r-api-v3
+ 1820  sudo docker service logs --raw b4r_b4r-api-v3
+ 1821  sudo docker ps
+ 1822  sudo docker exec -it a2d0e1fde431 bash
+ 1823  sudo docker stack rm b4r
+ 1824  sudo sh run.sh
+ 1825  sudo docker ps
+ 1826  sudo docker service ls
+ 1827  sudo docker ps
+ 1828  sudo docker exec -it 9e1566a4c206 bash
+ 1829  sudo docker ps
+ 1830  sudo docker exec -it 7318aeb13e47 bash
+ 1831  sudo docker ps
+ 1832  sudo docker exec -it 1fc34ad3fc42 bash
+ 1833  sudo docker exec -it a2523bba10c5 bash
+ 1834  sudo sh run.sh
+ 1835  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1836  sudo sh run.sh
+ 1837  sudo docker ps
+ 1838  sudo docker service ls
+ 1839  sudo docker ps
+ 1840  sudo docker exec -it a2523bba10c5 bash
+ 1841  sudo sh run.sh
+ 1842  sudo docker service ls
+ 1843  sudo docker ps
+ 1844  sudo docker exec -it a2523bba10c5 bash
+ 1845  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1846  sudo docker exec -it 4f29b851769c bash
+ 1847  sudo docker exec -it 817efddb22af bash
+ 1848  sudo docker exec -it 4f29b851769c bash
+ 1849  sudo docker exec -it 817efddb22af bash
+ 1850  sudo docker stack rm b4r
+ 1851  sudo sh run.sh
+ 1852  sudo docker ps
+ 1853  sudo docker service ls
+ 1854  sudo docker ps
+ 1855  sudo docker exec -it 93ea28c495df bash
+ 1856  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1857  sudo docker ps
+ 1858  sudo docker stack rm b4r
+ 1859  sudo sh run.sh
+ 1860  sudo docker ps
+ 1861  sudo docker service ls
+ 1862  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1863  sudo docker ps
+ 1864  sudo docker exec -it c598075897fe bash
+ 1865  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1866  sudo docker ps
+ 1867  sudo docker exec -it 06b89ae2eda5 bash
+ 1868  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1869  sudo docker ps
+ 1870  sudo docker exec -it 06b89ae2eda5 bash
+ 1871  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1872  sudo docker ps
+ 1873  sudo docker exec -it bc76369207a7 bash
+ 1874  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1875  sudo docker ps
+ 1876  sudo docker stack rm b4r
+ 1877  sudo sh run.sh
+ 1878  sudo docker ps
+ 1879  sudo docker service ls
+ 1880  sudo docker ps
+ 1881  sudo docker exec -it e4cf2a9ba4f4 bash
+ 1882  sudo docker stack rm b4r
+ 1883  sudo sh run.sh
+ 1884  sudo docker ps
+ 1885  sudo docker service ls
+ 1886  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1887  sudo docker ps
+ 1888  sudo docker exec -it e30f5b8fba10 bash
+ 1889  sudo docker stack rm b4r
+ 1890  sudo sh run.sh
+ 1891  sudo docker ps
+ 1892  sudo docker service ls
+ 1893  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1894  sudo docker ps
+ 1895  sudo dcker exec it 636a782ddecc bash
+ 1896  sudo docker exec it 636a782ddecc bash
+ 1897  sudo docker exec -it 636a782ddecc bash
+ 1898  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1899  sudo docker ps
+ 1900  sudo docker exec -it ea57fd6af059 bash
+ 1901  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1902  sudo docker ps
+ 1903  sudo docker exec -it cd4303ee4d51 bash
+ 1904  ~/react-course/git-test
+ 1905  cd _1
+ 1906  cd $_!
+ 1907  cd $_1
+ 1908  ~/react-course/git-test
+ 1909  ~/home/react-course/git-test
+ 1910  cd ~/react-course/git-test
+ 1911  cd ~/course-dev/react-course/git-test
+ 1912  clear
+ 1913  git init
+ 1914  git status
+ 1915  git add .
+ 1916  git status
+ 1917  git commit -m first commit
+ 1918  git commit -m "first commit"
+ 1919  git status
+ 1920  git log --oneline
+ 1921  git status
+ 1922  git add .
+ 1923  git status
+ 1924  git commit -m "second commit"
+ 1925  git log --oneline
+ 1926  git status
+ 1927  git add .
+ 1928  git status
+ 1929  git commit -m "third commit"
+ 1930  git status
+ 1931  git log --oneline
+ 1932  git checkout 84114cf index.html
+ 1933  git reset HEAD index.html
+ 1934  git checkout -- index.html
+ 1935  git status
+ 1936  sudo docker ps
+ 1937  sudo docker service ls
+ 1938  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1939  sudo docker ps
+ 1940  sudo docker service ls
+ 1941  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1942  sudo docker ps
+ 1943  sudo docker pull irribim/b4r:21.02-dev
+ 1944  sudo docker ps
+ 1945  sudo docker stack rm b4r
+ 1946  sudo docker pull irribim/b4r:21.02-dev
+ 1947  sudo sh run.sh
+ 1948  sudo docker ps
+ 1949  sudo sh run.sh
+ 1950  sudo docker ps
+ 1951  sudo docker exec -it irribim/b4r:21.02-dev
+ 1952  sudo docker exec -it irribim/b4r:21.02-dev bash
+ 1953  sudo docker exec -it 8c2df4e82164 bash
+ 1954  sudo docker ps
+ 1955  sudo docker exec -it 2f36dd76b262 bash
+ 1956  sudo docker ps
+ 1957  sudo service ls
+ 1958  sudo docker service ls
+ 1959  sudo docker ps
+ 1960  sudo docker -exec it 9ea2b70383b6 bash
+ 1961  sudo docker exec -it 9ea2b70383b6 bash
+ 1962  cd ~/work-dev/b4r-docker-swarm-deployment-tool
+ 1963  sudo docker ps
+ 1964  sudo docker exec -it 36ddabc094ac bash
+ 1965  php -v
+ 1966  sudo docker exec -it 36ddabc094ac bash
+ 1967  clear
+ 1968  cd ~/course-dev/react-course
+ 1969  node -v
+ 1970  node
+ 1971  clear
+ 1972  node -v
+ 1973  sudo npm install create-react-app -g
+ 1974  create-react-app react-complete-guide --scripts-version 1.1.5
+ 1975  sudo apt get update
+ 1976  sudo apt-get update
+ 1977  node -v
+ 1978  wget https://nodejs.org/dist/v14.15.4/node-v14.15.4-linux-x64.tar.xz
+ 1979  npm cache clean -f
+ 1980  npm install -g n
+ 1981  sudo npm install -g n
+ 1982  n latest
+ 1983  sudo n latest
+ 1984  node -v
+ 1985  sudo wget https://nodejs.org/dist/v15.6.0/node-v15.6.0-linux-x64.tar.xz
+ 1986  sudo apt-get install xz-utils
+ 1987  tar -C /usr/local –strip-components 1 -xJf node-v12.13.1-linux-x64.tar.xz
+ 1988  tar -C /usr/local –strip-components 1 -xJf node-v15.6.0-linux-x64.tar.xz
+ 1989  sudo tar -C /usr/local –strip-components 1 -xJf node-v15.6.0-linux-x64.tar.xz
+ 1990  sudo tar -C /usr/local/bin/node –strip-components 1 -xJf node-v15.6.0-linux-x64.tar.xz
+ 1991  sudo apt update
+ 1992  sudo apt install build-essential checkinstall libssl-dev
+ 1993  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.35.1/install.sh | bash
+ 1994  nvm --version
+ 1995  clear
+ 1996  nvm --version
+ 1997  nvm -v
+ 1998  node -v
+ 1999  npm -v
+ 2000  nvm -v
+ 2001  node -v
+ 2002  history > ~/course-dev/react-course/210115-terminal-history_2.txt
